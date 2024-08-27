@@ -19,4 +19,5 @@ knn.fit(x_train, y_train)
 
 # make predictions
 pred = knn.predict(x_test)
+print(pred)
 print(accuracy_score(y_test, pred))
